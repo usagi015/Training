@@ -1,0 +1,19 @@
+public class Main {
+    public static double calcTriangleArea(double bottom, double height){
+            double TriangleArea = 0.5 * bottom * height;
+            return TriangleArea;
+        }
+
+        public static double calcCircleArea ( double raidus){
+            double CircleArea = 3.14 * raidus * raidus;
+            return CircleArea;
+        }
+
+    public static void main(String[] args) {
+        double TriangleArea = calcTriangleArea(10.0, 5.0);
+        double CircleArea = calcCircleArea(5.0);
+
+        System.out.println("Area of Triangle is " + TriangleArea);
+        System.out.println("Area of Circle is " + CircleArea);
+    }
+}
